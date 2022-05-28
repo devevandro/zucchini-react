@@ -3,82 +3,20 @@ import { createTheme } from '@mui/material';
 export const theme = createTheme({
   palette: {
     primary: {
-      main: '#',
-      dark: '#',
-      light: '#',
-      100: '#',
+      main: '#333333',
+      light: '#444444',
     },
     secondary: {
-      main: '#',
-      100: '#',
-      200: '#',
-      300: '#',
-      dark: '#',
+      main: '#549c95',
     },
     text: {
-      primary: '#',
-      secondary: '#',
-    },
-    action: {
-      hover: '#',
-      active: '#',
+      primary: '#ffffff',
     },
     error: {
-      main: '#',
+      main: '#ff3333',
     },
     background: {
-      default: '#',
-    },
-  },
-  typography: {
-    fontFamily: '',
-    h1: {
-      fontFamily: '',
-      fontSize: '',
-      color: '',
-    },
-    h2: {
-      fontFamily: '',
-      fontSize: '',
-      fontWeight: '',
-    },
-    h3: {
-      fontFamily: '',
-      fontSize: '',
-      fontWeight: ,
-    },
-    h4: {
-      fontFamily: '',
-      fontSize: '',
-    },
-    h5: {
-      fontFamily: '',
-      fontWeight: '',
-      fontSize: '',
-      lineHeight: '',
-    },
-    h6: {
-      fontFamily: '',
-      fontWeight: ,
-      fontSize: '',
-    },
-    body1: {
-      fontFamily: '',
-      fontSize: '',
-    },
-    body2: {
-      fontFamily: '',
-      fontSize: '',
-      lineHeight: '',
-      fontWeight: ,
-    },
-    overline: {
-      fontFamily: '',
-      fontSize: '',
-    },
-    subtitle1: {
-      fontFamily: '',
-      fontSize: '',
+      default: '#444444',
     },
   },
   breakpoints: {
